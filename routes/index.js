@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   if (!res.locals.broken) {
-    res.render('index', { title: 'Express v.1.2' });
+    res.render('index', { title: 'Express v.1.3a' });
   } else {
   	res.status(500).send('Something broke!');
   }
